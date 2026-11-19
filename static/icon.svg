@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <!-- 浅色模式：白底黑图形。深色模式见 icon-dark.svg -->
-  <rect width="512" height="512" rx="116" fill="#FFFFFF"/>
-  <!-- 三角形重心落在画布中心：a = 256 - 宽/3，b = a + 宽 -->
-  <polygon points="203,158 203,354 361,256"
-           fill="#121212" stroke="#121212" stroke-width="22" stroke-linejoin="round"/>
-</svg>
