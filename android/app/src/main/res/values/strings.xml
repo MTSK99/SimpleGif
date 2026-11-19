@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SimpleGif</string>
+    <string name="subtitle">贴推特链接，出微信能用的动图</string>
+    <string name="hint_link">https://x.com/用户名/status/…</string>
+    <string name="label_link">推文链接 / B 站链接</string>
+    <string name="action_paste">粘贴</string>
+    <string name="action_convert">生成 GIF</string>
+    <string name="action_convert_running">转换中…</string>
+    <string name="action_save">保存到相册</string>
+    <string name="action_share">发送到微信</string>
+    <string name="chip_emoji">微信表情 · 4.8MB</string>
+    <string name="chip_chat">聊天大图 · 8MB</string>
+    <string name="idle_tip">支持推特链接和 B 站视频，只处理公开内容。代理开着时 App 会自动走代理，不需要额外设置。</string>
+    <string name="preview_desc">生成的 GIF 预览</string>
+    <string name="result_title">做好了</string>
+    <string name="result_guide">保存后在微信聊天里点 + → 相册选择即可发送；想变成表情，长按已发出的动图 → 添加。</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  播放三角。用 vector 而不是 PNG，是为了让填充色引用 @color/launcher_fg：
+  系统切到深色模式时会自动换成 values-night 里的值，图标跟着反转。
+  三角形重心 (43+43+76)/3 = 54，正好落在 108 画布的中心。
+  除三角以外都是透明的，所以拿它当 monochrome（Android 13 主题图标）也是对的剪影。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="@color/launcher_fg"
+        android:pathData="M43,33 L43,75 L76,54 Z"
+        android:strokeColor="@color/launcher_fg"
+        android:strokeWidth="5"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round" />
+</vector>

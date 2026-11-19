@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 浅色模式（白天）：白底黑字，主色就是黑 -->
+    <color name="bg">#FFFFFF</color>
+    <color name="surface">#F4F4F4</color>
+    <color name="surface_high">#E2E2E2</color>
+
+    <color name="brand">#111111</color>
+    <color name="brand_deep">#000000</color>
+    <color name="on_brand">#FFFFFF</color>
+
+    <color name="text_primary">#111111</color>
+    <color name="text_secondary">#5C5C5C</color>
+    <color name="text_muted">#8A8A8A</color>
+
+    <color name="chip_selected">#E0E0E0</color>
+
+    <!-- 功能性颜色不参与黑白反转：红色提示错误、黄褐色提示警告，辨识度比风格统一重要 -->
+    <color name="danger">#C62828</color>
+    <color name="warn">#8A6A00</color>
+
+    <!-- 启动图标：浅色模式白底黑图形，values-night 里反转 -->
+    <color name="launcher_bg">#FFFFFF</color>
+    <color name="launcher_fg">#121212</color>
+</resources>

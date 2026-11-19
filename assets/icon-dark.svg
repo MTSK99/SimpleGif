@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- 深色模式：黑底白图形，与浅色版完全反转 -->
+  <rect width="512" height="512" rx="116" fill="#000000"/>
+  <polygon points="203,158 203,354 361,256"
+           fill="#FFFFFF" stroke="#FFFFFF" stroke-width="22" stroke-linejoin="round"/>
+</svg>
