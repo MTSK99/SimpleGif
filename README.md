@@ -63,7 +63,7 @@ GIF 体积几乎随时长线性膨胀：一条 3 分半的视频塞进 5MB，只
 
 两个版本共用同一套思路：解析推文 → 拿到 `video.twimg.com` 的 mp4 → 两遍调色板转 GIF → 体积压到微信能吃下的范围。
 
-Android 版的安装与构建说明见 [`android/README.md`](android/README.md)，编译好的安装包在 [Releases](../../releases) 里。
+Android 版的安装与构建说明见 [`android/README.md`](android/README.md)。编译好的 APK 不进仓库——19.5MB 的构建产物不适合塞进 Git 历史，按那里的步骤一条命令就能生成。
 
 ## 快速开始
 
